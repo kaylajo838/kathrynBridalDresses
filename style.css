@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    background-color: rgb(242, 212, 215) !important;
+    flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
+}
+
+main {
+    border-bottom: 2px solid black;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.logo_img {
+    width: 50rem;
+}
+
+.grid_dresses {
+    margin: 4em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.card {
+    cursor: pointer;
+}
+
+
+/* ------------- Media Queries ---------------- */
+
+@media (max-width: 900px) {
+    .logo_img {
+        width: 40rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .logo_img {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo_img {
+        width: 20rem;
+    }
+}
